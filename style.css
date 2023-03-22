@@ -1,15 +1,22 @@
 .navigation-bar {
     position: sticky;
-    background-color: aquamarine;
-    border-color: black;
+    background-color: gray;
     height: 50%;
     width: 100%;
+    display: grid;
+    grid-template-columns: 10% 10% 50% 10% 10% 10%;
 }
-
+#main-website-container{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
 .main-video-screen {
     background-color: brown;
     border-color: black;
-    width: 50%;
+    width: 95%;
+}
+#main-video{
+    with: 95%;
 }
 .list-of-videos{
     background-color: cornflowerblue;

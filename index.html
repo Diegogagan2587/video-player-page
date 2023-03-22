@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,30 @@
     <link rel="stylesheet" href="style.css">
     <title>Video Player Page</title>
 </head>
+
 <body>
     <div id="navigation-bar" class="navigation-bar">
-        <p>this represent the navigation bar</p>
+        <div class="navigation-bar-elements">Menu buttom</div>
+        <div class="navigation-bar-elements">Home button</div>
+        <div class="navigation-bar-elements">Search buttom</div>
+        <div class="navigation-bar-elements">voice buttom</div>
+        <div class="navigation-bar-elements">setting butom</div>
+        <div class="navigation-bar-elements">log in button</div>
     </div>
-    <div id="main-video-box" class="main-video-screen">
-        <p>this represent the main video screen or main video box</p>
-    </div>
-    <div id="list-of-videos-box" class="list-of-videos">
-        <p>this represetn the list of videos</p>
-    </div>
-    <div id="comments-box" class="box-of-comments">
-        <p>this represetn the box of comments</p>
-    </div>
+    <div id="main-website-container">
 
-                      
-    
+        <div id="main-video-container" class="main-video-screen">
+            <video id="main-video" width="85%" height="85%" controls>
+                <source src="https://youtu.be/b80eLC0lHc4">
+            </video>
+        </div>
+        <div id="list-of-videos-box" class="list-of-videos">
+            <p>this represetn the list of videos</p>
+        </div>
+        <div id="comments-box" class="box-of-comments">
+            <p>this represetn the box of comments</p>
+        </div>
+    </div>
 </body>
+
 </html>
