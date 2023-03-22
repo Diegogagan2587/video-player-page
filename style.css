@@ -1,0 +1,24 @@
+.navigation-bar {
+    position: sticky;
+    background-color: aquamarine;
+    border-color: black;
+    height: 50%;
+    width: 100%;
+}
+
+.main-video-screen {
+    background-color: brown;
+    border-color: black;
+    width: 50%;
+}
+.list-of-videos{
+    background-color: cornflowerblue;
+    border-color: black;
+    width: 50%;
+    height: 100%;
+}
+.box-of-comments{
+    background-color: darkgray;
+    border-color: black;
+    width: 50%;
+}
