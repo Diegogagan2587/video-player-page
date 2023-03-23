@@ -25,6 +25,9 @@
 }
 /*Style for list of videos upwards*/
 /*settings for main video below*/
+.main-video-container{
+    width: 84%;
+}
 .bar-of-video-options{
     display: grid;
     width: 84%;
