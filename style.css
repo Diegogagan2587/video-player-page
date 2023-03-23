@@ -1,7 +1,7 @@
 .navigation-bar {
     position: sticky;
     background-color: gray;
-    height: 50%;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 10% 10% 50% 10% 10% 10%;
@@ -10,22 +10,26 @@
     display: grid;
     grid-template-columns: 65% 35%;
 }
-.main-video-screen {
-    background-color: brown;
-    border-color: black;
-    width: 95%;
+/*This set the style for the list of videos below*/
+.listOfvideos{
+    display: grid;
+    grid-template-columns: 100%;
 }
-#main-video{
-    with: 95%;
+.videoFromTheList{
+    display: grid;
+    grid-template-columns: 45% 55%;
+    height: 10%;
 }
-.list-of-videos{
-    background-color: cornflowerblue;
-    border-color: black;
-    width: 50%;
-    height: 100%;
+.mini-picture-from-list {
+    width: 100%;
 }
-.box-of-comments{
-    background-color: darkgray;
-    border-color: black;
-    width: 50%;
+/*Style for list of videos upwards*/
+/*settings for main video below*/
+.bar-of-video-options{
+    display: grid;
+    width: 84%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
+/*settings for main video upwards*/
+
+
