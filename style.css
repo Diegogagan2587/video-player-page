@@ -9,6 +9,7 @@
 #main-website-container{
     display: grid;
     grid-template-columns: 65% 35%;
+    grid-template-areas: currentVideo list;
 }
 /*This set the style for the list of videos below*/
 .listOfvideos{
@@ -24,6 +25,7 @@
     width: 100%;
 }
 /*Style for list of videos upwards*/
+
 /*settings for main video below*/
 .main-video-container{
     width: 84%;
@@ -32,6 +34,15 @@
     display: grid;
     width: 84%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.bar-of-video-options-creatorPicture{
+    width: 65%;
+    border-radius: 100%;
+}
+.bar-of-videos-options-profileNameAndSucriptors{
+    display: grid;
+    grid-template-rows: 25% 25%;
+    grid-template-columns: 100%;
 }
 /*settings for main video upwards*/
 
