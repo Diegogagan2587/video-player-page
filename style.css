@@ -16,13 +16,21 @@
     display: grid;
     grid-template-columns: 100%;
 }
-.videoFromTheList{
+.videoFromTheListBox{
     display: grid;
     grid-template-columns: 45% 55%;
     height: 10%;
 }
 .mini-picture-from-list {
-    width: 100%;
+    width: 95%;
+}
+.dataOfVideoFromTheListBox{
+    display: grid;
+    grid-template-rows: 25% 15% 15%;
+}
+#viewsInfo{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 /*Style for list of videos upwards*/
 
