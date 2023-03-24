@@ -21,10 +21,12 @@
     <!--I need to refactor all below this place-->
     <div id="main-website-container">
         <div id="main-video-container" class="main-video-screen">
-            <div id="current-video-container">
+            <div id="current-video-container" class="current-video-tittle">
                 <iframe width="688" height="387" src="https://www.youtube.com/embed/kn9doz1x1Dc" title="Halo Wars Trailer [4K 60 FPS]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <p>Halo Wars: The best short film created ever!</p>
+            <div id="current-video-tittle" class="current-video-tittle">
+                <p>Halo Wars: The best short film created ever!</p>
+            </div>
             <div id="video-options-bar" class="bar-of-video-options">
                 <div id="profile-picture-mini">
                     <img src="./img/creator-profile-picture.jpg" alt="creator profile picture" class="bar-of-video-options-creatorPicture">
@@ -49,10 +51,17 @@
                 </div>
             </div>
             <div id="current-video-descrition-box">
-                <p>This represnte the descritption for the current video that is playing</p>
-            </div>
-            <div id="comments-box" class="box-of-comments">
-                <p>this represetn the box of comments</p>
+                <div id="views-and-upload-date" class="current-views-and-upload-date">
+                    <p>789,526 views</p>
+                    <p>6 years ago</p>
+                    <div id="empty-space"></div>
+                </div>
+                <div id="video-current-description">
+                    <p>
+                        Have you ever imagined what was the best shor film for this amazing story?
+                        We believed this is the best video ever made!
+                    </p>
+                </div>
             </div>
         </div>
         <div id="list-of-videos-box" class="listOfvideos">

@@ -1,3 +1,7 @@
+#body{
+    margin-left: 1%;
+}
+
 .navigation-bar {
     position: sticky;
     background-color: gray;
@@ -37,11 +41,17 @@
 /*settings for main video below*/
 .main-video-container{
     width: 84%;
+    
 }
+.current-video-tittle{
+    margin-left: 3%;
+}
+
 .bar-of-video-options{
     display: grid;
     width: 84%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    margin-left: 3%;
 }
 .bar-of-video-options-creatorPicture{
     width: 65%;
@@ -51,6 +61,15 @@
     display: grid;
     grid-template-rows: 25% 25%;
     grid-template-columns: 100%;
+}
+.current-views-and-upload-date{
+    display: grid;
+    grid-template-columns: 20% 20% 1fr;
+    margin-left: 3%;
+}
+#video-current-description{
+    width: 75%;
+    margin-left: 3%;
 }
 /*settings for main video upwards*/
 
